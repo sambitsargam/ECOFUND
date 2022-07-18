@@ -1,6 +1,6 @@
 # ECOFUND
 
-## EcoFund (as in: Decentralized Fundraisers) is a decentralized platform for fundraising of all Environmental problem & solutions. As any dApp, it runs on blockchain and ensures full automation, security, transparency and fairness.
+### EcoFund (as in: Decentralized Fundraisers) is a decentralized platform for fundraising of all Environmental problem & solutions. As any dApp, it runs on blockchain and ensures full automation, security, transparency and fairness.
 
 ### EcoFund currently supports two types of fundraisers:
   **1. One-time fundraiser** where the organizer describes the goal of the fundraiser and optional the goal amount (in USD) and end date. Donors may choose to fund a one-time fundraiser as long as it's in open status and they have funds in their wallet.
@@ -25,7 +25,32 @@
 ## REFERENCE LINKS
 ### [CHAINLINK DOCS](https://docs.chain.link/)
 ### [WEB3.STORAGE DOCS](https://web3.storage/docs/)
-### [MORALIS DOCS](https://docs.moralis.io/moralis-dapp/getting-started
+### [MORALIS DOCS](https://docs.moralis.io/moralis-dapp/getting-started)
+
+### LICENCE
+```
+MIT License
+
+Copyright (c) 2022 SAMBIT SARGAM EKALABYA
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
 
 
 
