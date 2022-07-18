@@ -7,7 +7,7 @@
   
   **2. recurring fundraiser** where donors may pledge to donate a set amount at a given interval - this can be used for all kinds of cyclical donations.
   
-  ### EcoFund relies on the following technologies:
+  ## EcoFund relies on the following technologies:
    * **Chainlink price feeds** are used to securely convert donations made in crypto to fiat goals, e.g. ETH → USD.
    * **Chainlink Keepers** are used to automate recurring payments made from donors to fundraisers.
    * **Moralis** is used for smooth web3 experience.
@@ -16,3 +16,9 @@
 ## Diagram
 
 ![Untitled design (1)](https://user-images.githubusercontent.com/70655824/179470694-4a47248b-be25-4bb2-8533-e8c442365767.png)
+
+## IMPORTANT LINKS
+### [DEMO LINK](https://ecofund.vercel.app/)
+### [CONTRACT FILE](https://github.com/SAMBITSARGAM/ECOFUND-CONTRACT)
+### [DEPLOYED ADDRESS](https://rinkeby.etherscan.io/address/0xffc1807f892107a0e3eaebb6a9600f8d925bdc7b)
+
