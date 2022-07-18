@@ -1,0 +1,71 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "^2.14.0",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "^5.8.0",
+    "@mui/lab": "^5.0.0-alpha.83",
+    "@mui/material": "latest",
+    "@mui/styles": "^5.8.0",
+    "@mui/x-date-pickers": "^5.0.0-alpha.4",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "latest",
+    "bignumber.js": "^9.0.2",
+    "dayjs": "^1.11.2",
+    "ethereum-blockies-base64": "^1.0.2",
+    "final-form": "^4.20.7",
+    "ipfs-car": "^0.7.0",
+    "moralis": "^1.9.0",
+    "mui-rff": "^5.3.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-final-form": "^6.5.9",
+    "react-markdown": "^8.0.3",
+    "react-moralis": "^1.4.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "4.0.3",
+    "typescript": "latest",
+    "uuid": "^8.3.2",
+    "web3.storage": "^4.2.0",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    
+    "start": "react-scripts --max_old_space_size=4096 start",
+    "build": "react-scripts --max_old_space_size=4096 build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "yarn run eslint src --ext .js,.jsx,.ts,.tsx --max-warnings=0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.0",
+    "@types/uuid": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "process": "^0.11.10"
+  },
+  "resolutions": {
+    "@solana/web3.js": "1.42.0",
+    "//": "See https://github.com/facebook/create-react-app/issues/11773",
+    "react-error-overlay": "6.0.9"
+  }
+}
