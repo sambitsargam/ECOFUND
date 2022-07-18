@@ -1,6 +1,6 @@
 # ECOFUND
 
-### EcoFund (as in: Decentralized Fundraisers) is a decentralized platform for fundraising of all Environmental problem & solutions. As any dApp, it runs on blockchain and ensures full automation, security, transparency and fairness.
+## EcoFund (as in: Decentralized Fundraisers) is a decentralized platform for fundraising of all Environmental problem & solutions. As any dApp, it runs on blockchain and ensures full automation, security, transparency and fairness.
 
 ### EcoFund currently supports two types of fundraisers:
   **1. One-time fundraiser** where the organizer describes the goal of the fundraiser and optional the goal amount (in USD) and end date. Donors may choose to fund a one-time fundraiser as long as it's in open status and they have funds in their wallet.
@@ -21,4 +21,11 @@
 ### [DEMO LINK](https://ecofund.vercel.app/)
 ### [CONTRACT FILE](https://github.com/SAMBITSARGAM/ECOFUND-CONTRACT)
 ### [DEPLOYED ADDRESS](https://rinkeby.etherscan.io/address/0xffc1807f892107a0e3eaebb6a9600f8d925bdc7b)
+
+## REFERENCE LINKS
+### [CHAINLINK DOCS](https://docs.chain.link/)
+### [WEB3.STORAGE DOCS](https://web3.storage/docs/)
+### [MORALIS DOCS](https://docs.moralis.io/moralis-dapp/getting-started
+
+
 
