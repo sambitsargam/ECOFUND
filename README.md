@@ -26,8 +26,10 @@
 ### [CHAINLINK DOCS](https://docs.chain.link/)
 ### [WEB3.STORAGE DOCS](https://web3.storage/docs/)
 ### [MORALIS DOCS](https://docs.moralis.io/moralis-dapp/getting-started)
+### DE FUND
 
-### LICENCE
+
+## LICENCE
 ```
 MIT License
 
