@@ -36,7 +36,7 @@ const formFields: GenericFormField[] = [
         formControlProps={{ margin: "none" }}
         required={required.fundraiserType}
         data={[
-          { label: "Standard, one-time fundraiser", value: String(FundraiserType.ONE_TIME_DONATION) },
+          { label: "Standard, one-time fundraiser (Under Maintainance)", disabled: true, value: String(FundraiserType.ONE_TIME_DONATION) },
           {
             label: "Continuous fundraiser accepting recurring payments!",
             value: String(FundraiserType.RECURRING_DONATION),
