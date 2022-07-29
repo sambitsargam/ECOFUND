@@ -34,7 +34,7 @@ const formFields: GenericFormField[] = [
         formControlProps={{ margin: "none" }}
         required={required.token}
       >
-        <MenuItem value={ADDRESS_ZERO}>ETH</MenuItem>
+        <MenuItem value={ADDRESS_ZERO}>TCRO</MenuItem>
         <MenuItem value="" disabled={true}>
           LINK
         </MenuItem>
@@ -109,7 +109,7 @@ export const CreateRecurringDonation = ({
         NotificationType.ERROR,
         `Your wallet balance of ${Moralis.Units.FromWei(
           ethBalance.toString(10)
-        )} ETH is not enough to cover first installment! Deposit more funds by clicking on your account name in navbar.`
+        )} TCRO is not enough to cover first installment! Deposit more funds by clicking on your account name in navbar.`
       );
       return;
     }

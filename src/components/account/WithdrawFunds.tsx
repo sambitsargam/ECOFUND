@@ -70,10 +70,10 @@ export const WithdrawFunds = ({ ethBalance, address, onWithdrawal }: WithdrawFun
   return (
     <StyledPaper sx={{ mt: 3 }}>
       <Typography component="h1" variant="h5">
-        Withdraw funds (ETH)
+        Withdraw funds (TCRO)
       </Typography>
       <Typography component="p">
-        You currently have {Moralis.Units.FromWei(ethBalance.toString(10))} ETH in your account. Click the button below
+        You currently have {Moralis.Units.FromWei(ethBalance.toString(10))} TCRO in your account. Click the button below
         to withdraw those funds.
       </Typography>
       <Alert severity="warning" sx={{ my: 2 }}>

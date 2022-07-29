@@ -27,7 +27,7 @@ const formFields: GenericFormField[] = [
         formControlProps={{ margin: "none" }}
         required={required.token}
       >
-        <MenuItem value={ADDRESS_ZERO}>ETH</MenuItem>
+        <MenuItem value={ADDRESS_ZERO}>TCRO</MenuItem>
         <MenuItem value="" disabled={true}>
           LINK
         </MenuItem>
@@ -42,7 +42,7 @@ const formFields: GenericFormField[] = [
         name="amount"
         margin="none"
         required={required.amount}
-        helperText="For example to donate 0.34 ETH, type 0.34 in this field"
+        helperText="For example to donate 0.34 TCRO, type 0.34 in this field"
       />
     ),
   },
@@ -78,7 +78,7 @@ export const OneTimeDonation = ({ fundraiser, onDonation }: OneTimeDonationProps
         NotificationType.ERROR,
         `You're trying to donate more than your current balance of ${Moralis.Units.FromWei(
           ethBalance.toString(10)
-        )} ETH. Deposit more funds by clicking on your account name in navbar.`
+        )} TCRO. Deposit more funds by clicking on your account name in navbar.`
       );
       return;
     }

@@ -75,7 +75,7 @@ export const FundraiserWithdrawFunds = ({
       </Typography>
       <Typography component="p">
         As this fundraiser's owner you can withdraw its current balance of{" "}
-        {Moralis.Units.FromWei(fundraiser.ethBalance.toString(10))} ETH. Click the button below to withdraw those funds.
+        {Moralis.Units.FromWei(fundraiser.ethBalance.toString(10))} TCRO. Click the button below to withdraw those funds.
       </Typography>
       <Alert severity="warning" sx={{ my: 2 }}>
         <AlertTitle>Warning!</AlertTitle>

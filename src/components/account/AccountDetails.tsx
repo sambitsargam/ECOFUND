@@ -44,7 +44,7 @@ export const AccountDetails = ({ user, chainId, network, ethBalance }: AccountDe
         </Grid>
 
         <Grid item xs={2} className={classes.label}>
-          <strong>Eth account:</strong>
+          <strong>Account:</strong>
         </Grid>
         <Grid item xs={5}>
           <code>{user?.get("ethAddress")}</code>
@@ -61,7 +61,7 @@ export const AccountDetails = ({ user, chainId, network, ethBalance }: AccountDe
           <strong>Your balance:</strong>
         </Grid>
         <Grid item xs={5}>
-          <code>{Moralis.Units.FromWei(ethBalance.toString(10))} ETH</code>
+          <code>{Moralis.Units.FromWei(ethBalance.toString(10))} TCRO</code>
         </Grid>
 
         <Grid item xs={12} className={classes.payments}>

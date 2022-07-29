@@ -29,11 +29,11 @@
     "react-scripts": "4.0.3",
     "typescript": "latest",
     "uuid": "^8.3.2",
+    "web3": "^1.7.4",
     "web3.storage": "^4.2.0",
     "yup": "^0.32.11"
   },
   "scripts": {
-    
     "start": "react-scripts --max_old_space_size=4096 start",
     "build": "react-scripts --max_old_space_size=4096 build",
     "test": "react-scripts test",

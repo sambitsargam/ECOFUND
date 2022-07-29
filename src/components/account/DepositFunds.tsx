@@ -26,7 +26,7 @@ const formFields: GenericFormField[] = [
         formControlProps={{ margin: "none" }}
         required={required.token}
       >
-        <MenuItem value={ADDRESS_ZERO}>ETH</MenuItem>
+        <MenuItem value={ADDRESS_ZERO}>TCRO</MenuItem>
         <MenuItem value="" disabled={true}>
           LINK
         </MenuItem>
@@ -41,7 +41,7 @@ const formFields: GenericFormField[] = [
         name="amount"
         margin="none"
         required={required.amount}
-        helperText="For example to deposit 0.34 ETH, type 0.34 in this field"
+        helperText="For example to deposit 0.34 TCRO, type 0.34 in this field"
       />
     ),
   },
@@ -105,7 +105,7 @@ export const DepositFunds = ({ onDeposit }: DepositFundsProps): React.ReactEleme
   return (
     <StyledPaper sx={{ mt: 3 }}>
       <Typography component="h1" variant="h5">
-        Deposit funds (ETH)
+        Deposit funds (TCRO)
       </Typography>
       <GenericForm
         onSubmit={onSubmit}

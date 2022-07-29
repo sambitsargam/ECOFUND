@@ -25,9 +25,13 @@ import { Link as RouterLink } from "react-router-dom";
 import ethereum from "../../images/ethereum.svg";
 import Moralis from "moralis";
 
+
+
+
 export const UserInfo = () => {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
+
   const handleClick = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorEl(event.currentTarget);
   };
@@ -61,7 +65,7 @@ export const UserInfo = () => {
     if (isAuthenticated && isWeb3Enabled && chainId !== ALLOWED_NETWORK) {
       addNotification(
         NotificationType.WARNING,
-        "EcoFund currently works only on Ethereum Rinkeby testnet. Please switch to Rinkeby!"
+        "EcoFund currently works only on Cronos testnet. Please add the network then click on switch to Cronos!"
       );
       setWrongNetwork(true);
     } else {
@@ -128,6 +132,7 @@ export const UserInfo = () => {
   const switchNetworkHandler = () => {
     switchNetwork(ALLOWED_NETWORK).then();
   };
+  
 
   if (!isInitialized) {
     return null;
@@ -136,7 +141,7 @@ export const UserInfo = () => {
   if (isAuthenticated && isWrongNetwork) {
     return (
       <Button onClick={switchNetworkHandler} variant="contained" color="success" sx={{ mr: 1.5, ml: 3 }}>
-        Switch to Rinkeby
+        Switch to Cronos
       </Button>
     );
   }
@@ -228,7 +233,7 @@ export const UserInfo = () => {
                 <img src={ethereum} style={{ width: "24px", height: "24px" }} alt="eth icon" />
               </ListItemIcon>
               <Link component={RouterLink} to="/account" mr="15px" sx={{ textDecoration: "none", color: "#000" }}>
-                Balance: {Moralis.Units.FromWei(ethBalance.toString())} ETH
+                Balance: {Moralis.Units.FromWei(ethBalance.toString())} TCRO
               </Link>
             </MenuItem>
             <Divider />

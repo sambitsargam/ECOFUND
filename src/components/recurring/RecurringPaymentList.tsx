@@ -64,7 +64,7 @@ export const RecurringPaymentList = ({ data, onCancel, isLoading }: RecurringPay
                   <strong>Amount:</strong>
                 </Grid>
                 <Grid item xs={9}>
-                  {Moralis.Units.FromWei(item.amount.toString())} ETH
+                  {Moralis.Units.FromWei(item.amount.toString())} TCRO
                 </Grid>
                 <Grid item xs={3} className={classes.label}>
                   <strong>Frequency:</strong>

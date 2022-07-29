@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { Typography, Box } from "@mui/material";
 
-export const ALLOWED_NETWORK = process.env.REACT_APP_ALLOWED_NETWORK || "0x4";
+export const ALLOWED_NETWORK = process.env.REACT_APP_ALLOWED_NETWORK || "0x152";
 
 export function RequireAuth({ children }: { children: JSX.Element }) {
   const router = useLocation();
@@ -43,7 +43,7 @@ export function RequireAuth({ children }: { children: JSX.Element }) {
             </Typography>
             <Typography component="p" color="primary.light">
               <Box sx={{ fontWeight: 500 }}>
-                To see this page you have to be logged in and connected to the correct network (Rinkeby).
+                To see this page you have to be logged in and connected to the correct network (Cronos).
               </Box>
             </Typography>
           </Container>

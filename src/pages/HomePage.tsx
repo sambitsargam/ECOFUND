@@ -34,7 +34,7 @@ export const HomePage = () => {
           </Typography>
           <Typography component="p" color={color} sx={{ mb: 2 }}>
            The smart contracts behind this web3 dApp are
-            currently deployed on Ethereum Rinkeby testnet. Please <strong>DO NOT</strong> use on mainnet, this is a proof
+            currently deployed on Cronos testnet. Please <strong>DO NOT</strong> use on mainnet, this is a proof
             of concept and has not been audited!
           </Typography>
           <Typography component="p" color={color} sx={{ mb: 2 }}>
@@ -42,7 +42,7 @@ export const HomePage = () => {
             <ul>
               <li>
                 <strong>Chainlink price feeds</strong> are used to securely convert donations made in crypto to fiat
-                goals, e.g. ETH &rarr; USD.
+                goals, e.g. CRO &rarr; USD.
               </li>
               <li>
                 <strong>Chainlink Keepers</strong> are used to automate recurring payments made from donors to

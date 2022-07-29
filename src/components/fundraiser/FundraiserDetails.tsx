@@ -113,7 +113,7 @@ export const FundraiserDetails = ({ data, user, refreshFundraiserDetails, isLoad
                 Organizer:
               </Grid>
               <Grid item xs={8}>
-                <a href={`https://rinkeby.etherscan.io/address/${data.owner}`} target="_blank">
+                <a href={`https://testnet.cronoscan.com/address/${data.owner}`} target="_blank">
                   <img style={{ width: 28 }} src={makeBlockie(data.owner)} alt={data.owner} />
                 </a>
               </Grid>
@@ -122,7 +122,7 @@ export const FundraiserDetails = ({ data, user, refreshFundraiserDetails, isLoad
                 Donations:
               </Grid>
               <Grid item xs={8}>
-                {Moralis.Units.FromWei(data.ethBalance.toString())} ETH
+                {Moralis.Units.FromWei(data.ethBalance.toString())} TCRO:
               </Grid>
 
               {data.goalAmount > 0 && (
