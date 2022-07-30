@@ -22,9 +22,10 @@
 ## IMPORTANT LINKS
 ### [DEMO LINK](https://ecofund.vercel.app/)
 ### [CONTRACT FILE](https://github.com/SAMBITSARGAM/ECOFUND-CONTRACT)
-### [DEPLOYED ADDRESS](https://rinkeby.etherscan.io/address/0xffc1807f892107a0e3eaebb6a9600f8d925bdc7b)
+### [DEPLOYED ADDRESS](https://testnet.cronoscan.com/address/0x30B962f22A7C8D9f980fEc3670dbb44dc17B5BcB)
 
 ## REFERENCE LINKS
+### [CRONOS DOCS](https://cronos.org/docs/)
 ### [CHAINLINK DOCS](https://docs.chain.link/)
 ### [WEB3.STORAGE DOCS](https://web3.storage/docs/)
 ### [MORALIS DOCS](https://docs.moralis.io/moralis-dapp/getting-started)
